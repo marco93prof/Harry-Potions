@@ -23,10 +23,11 @@ header{
 
 h1{
 	margin: 10px 0;
-	font-size: 55px;
+	font-size: 60px;
 	font-weight: 600;
 	font-family: HPfont;
 	letter-spacing: 1px;
+	color: #79f;
 }
 
  h2{
@@ -36,7 +37,7 @@ h1{
 	transform: translateY(-50%); */	
 	margin: 10px 0;
 	text-align: center;
-	font-size: 33px;
+	font-size: 36px;
 	font-weight: 300;
 	font-family: HPfont;
 	letter-spacing: 1px;
@@ -52,18 +53,40 @@ h1{
 .sec2{
 	text-align: center;
 	padding: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	background: #ddd;
 	color: #222;
 }
 
-.sec2 > form > input:not([type="checkbox"]) {
+.sec2 > form > input[type="text"], input[type="email"] {
 	width: 85%;
 	padding: 7px;
 	margin: 7px 0;
 	text-transform: uppercase;
 }
 
-.updatescheckbox{
-	font-size: 14px;
+.sec2 > form > input[type="checkbox"] {
+	margin-top: 50px;
 }
+
+.checkboxSec2{
+	margin-top: 7px;
+	font-size: 16px;
+}
+
+.button{
+	padding: 10px;
+	margin: 28px;
+	border: none;
+	background: #f13;
+	font-weight: 600;
+	font-size: 16px;
+	color: #ddd;
+}
+
+.button:hover{
+	background: #c13;
+
+}
+
+
