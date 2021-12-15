@@ -1,4 +1,4 @@
-<h3 align="center">This project aims to create a <i><b>Responsive Landing Page</i></b></h3>
+<h3 align="center">⚡ A <i><b>Responsive Landing Page</i></b> for a Harry Potter potions guide ⚡</h3>
 <p align="center"><i>For study purposes only.<i></p>
 
 <hr>
