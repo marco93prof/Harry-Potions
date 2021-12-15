@@ -1,76 +1,37 @@
 @font-face {
 	font-family: HPfont;
 	src: url(./hp-font.TTF);
-}
+ }
 
-body {
+*{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
-	font-size: 16px;
 }
 
-header {
-	background-color: #66f;
-	padding: 1px;
-}
-
-h1 {
-	font-family: HPfont;
-	font-weight: 300;
-	font-size: 70px;
-	text-align: center;
-	letter-spacing: 0px;
-}
-
-h2{
-	/* font-family: sans-serif; */
-	margin: 0;
+header{
+	position: relative;
+	background-color: #222;
+	color: white;
 	padding: 10px;
+}
+
+h1{
+	font-size: 50px;
+	font-weight: 600;
 	font-family: HPfont;
-	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+ h2{
+/*	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%); */
+	font-size: 38px;
 	font-weight: 300;
-	font-size: 30px;
-	text-align: center;
-	letter-spacing: 0px;
-	background-color: #66f;
-}
-
-.leftsection {	
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	width: 50%;
-	float: left;
-	border: 1px solid black;
-	/* text-align: center; */
-}
-
-.rightsection {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	width: 50%;
-	border: 1px solid black;
-	float: right;
-	/* text-align: center; */
-}
-
-form {
+	font-family: HPfont;
+	letter-spacing: 1px;
 	text-align: center;
 }
-
-form > input {
-	width: 90%;
-	padding: 10px;
-	border: 2px solid #66f;
-	border-radius: 3px;
-	font-size: 14px;
-	text-transform: uppercase;
-}
-
-.button{
-	
-}
-
