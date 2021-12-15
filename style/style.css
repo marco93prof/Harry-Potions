@@ -3,66 +3,60 @@
 	src: url(./hp-font.TTF);
  }
 
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-/* body{
+body{
+	text-align: center;
 	background-color: #222;
-	font-family: sans-serif;
 	color: #ddd;
-} */
+	font-family: sans-serif;
+}
 
 header{
 	/* position: relative; */
 	/* margin: auto; */
 	border: 1px solid white;
-	background-color: #222;
 	color: white;
 }
 
-h1{
+h1 {
 	margin: 10px 0;
-	font-size: 60px;
+	font-size: 47px;
 	font-weight: 600;
 	font-family: HPfont;
 	letter-spacing: 1px;
 	color: #79f;
 }
 
- h2{
+ h2 {
 /*	position: absolute;
 	top: 50%;
 	right: 10px;
 	transform: translateY(-50%); */	
 	margin: 10px 0;
-	text-align: center;
-	font-size: 36px;
+	font-size: 33px;
 	font-weight: 300;
 	font-family: HPfont;
 	letter-spacing: 1px;
 }
 
-.sec1{
-	text-align: center;
-	padding: 10px;
-	font-size: 20px;
-	background-color: #222;
-	color: #ddd;
-}
-
-.sec2{
-	text-align: center;
+.sec1 {
 	padding: 10px;
 	font-size: 18px;
+}
+
+.sec2 {
+	padding: 10px;
 	background: #ddd;
 	color: #222;
 }
 
 .sec2 > form > input[type="text"], input[type="email"] {
-	width: 85%;
+	width: 90%;
 	padding: 7px;
 	margin: 7px 0;
 	text-transform: uppercase;
@@ -70,12 +64,11 @@ h1{
 
 .checkboxSec2{
 	margin-top: 7px;
-	font-size: 16px;
 }
 
 .button{
 	padding: 10px;
-	margin: 28px;
+	margin: 28px 0;
 	border: none;
 	background: #f13;
 	font-weight: 600;
@@ -85,7 +78,6 @@ h1{
 
 .button:hover{
 	background: #c13;
-
 }
 
 .sec3{
@@ -94,4 +86,12 @@ h1{
 	font-size: 20px;
 	background-color: #222;
 	color: white;
+}
+
+.potionSec3{
+
+}
+
+footer{
+	border: 1px solid white;
 }
