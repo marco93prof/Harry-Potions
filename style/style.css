@@ -9,19 +9,24 @@
 	padding: 0;
 }
 
-header{
-	position: relative;
+body{
 	background-color: #222;
 	color: white;
+}
+
+header{
+	/* position: relative; */
 	padding: 10px;
+	border: 1px solid white;
+	margin: auto;
 }
 
 h1{
-	font-size: 50px;
+	font-size: 55px;
 	font-weight: 600;
 	font-family: HPfont;
 	letter-spacing: 1px;
-	text-align: center;
+	margin: 10px 0;
 }
 
  h2{
@@ -29,9 +34,15 @@ h1{
 	top: 50%;
 	right: 10px;
 	transform: translateY(-50%); */
-	font-size: 38px;
+	font-size: 33px;
 	font-weight: 300;
 	font-family: HPfont;
 	letter-spacing: 1px;
 	text-align: center;
+}
+
+.sec1{
+	text-align: center;
+	padding: 10px;
+	font-size: 22px;
 }
