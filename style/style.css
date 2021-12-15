@@ -1,5 +1,22 @@
+@font-face {
+	font-family: HPfont;
+	src: url(./hp-font.TTF);
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+}
+
+header {
+	background-color: #66f;
+	padding: 1px;
+}
+
+h1 {
+	font-family: HPfont;
+	font-weight: 300;
+	font-size: 2em;
+	text-align: center;
+	letter-spacing: 0px;
 }
