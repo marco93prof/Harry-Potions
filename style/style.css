@@ -9,16 +9,18 @@
 	padding: 0;
 }
 
-body{
+/* body{
 	background-color: #222;
 	font-family: sans-serif;
-	color: white;
-}
+	color: #ddd;
+} */
 
 header{
 	/* position: relative; */
 	/* margin: auto; */
 	border: 1px solid white;
+	background-color: #222;
+	color: white;
 }
 
 h1{
@@ -41,13 +43,14 @@ h1{
 	font-weight: 300;
 	font-family: HPfont;
 	letter-spacing: 1px;
-
 }
 
 .sec1{
 	text-align: center;
 	padding: 10px;
 	font-size: 20px;
+	background-color: #222;
+	color: #ddd;
 }
 
 .sec2{
@@ -65,10 +68,6 @@ h1{
 	text-transform: uppercase;
 }
 
-.sec2 > form > input[type="checkbox"] {
-	margin-top: 50px;
-}
-
 .checkboxSec2{
 	margin-top: 7px;
 	font-size: 16px;
@@ -80,7 +79,7 @@ h1{
 	border: none;
 	background: #f13;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 18px;
 	color: #ddd;
 }
 
@@ -89,4 +88,10 @@ h1{
 
 }
 
-
+.sec3{
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #222;
+	color: white;
+}
