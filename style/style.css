@@ -9,11 +9,22 @@
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 body{
 	text-align: center;
 	background-color: #222;
 	color: #ddd;
 	font-family: sans-serif;
+}
+
+.containerAll{
+	max-width: 700px;
+	margin: auto;
+
 }
 
 header{
@@ -98,9 +109,4 @@ footer{
 	border: 1px solid white;
 	font-size: 16px;
 	color: #79f;
-}
-
-a {
-	text-decoration: none;
-	color: inherit;
 }
