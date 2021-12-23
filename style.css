@@ -18,19 +18,20 @@
 
 body {
 	margin: auto;
-	max-width: 768px;
+	max-width: 512px;
 	color: #eee;
 	background-color: #000;
+
 }
 
 a {
-	color: inherit;
+	color: #092;
 	text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {	
 	font-family: HPfont;
-	font-size: 2.2rem; /***** RESULT OF MQ[1] *****/
+	font-size: 2.5rem; /***** RESULT OF MQ[1] *****/
 	letter-spacing: 1px;
 	text-align: center;
 }
@@ -65,7 +66,7 @@ footer {
 #############################################*/
 
 .sec1-title {
-	font-size: 2.7rem; /***** RESULT OF MQ[1] *****/
+	font-size: 3.5rem; /***** RESULT OF MQ[1] *****/
 	margin-top: 0.7rem; /***** RESULT OF MQ[1] *****/
 	letter-spacing: 2px;
 	color: #092;
@@ -89,7 +90,7 @@ footer {
 	margin-top: 2.5rem; /***** RESULT OF MQ[1] *****/
 }
 
-.sec1-img-book{ width: 11rem; } /***** RESULT OF MQ[1] *****/
+.sec1-img-book{ width: 10rem; } /***** RESULT OF MQ[1] *****/
 .sec1-img-devilsnare{ width: 8rem; } /***** RESULT OF MQ[1] *****/
 .sec1-img-cauldron{ width: 9rem; } /***** RESULT OF MQ[1] *****/
 
@@ -246,11 +247,10 @@ footer {
 
 .sec3-potion-box {
 	margin-top: 1rem;
-	padding: 0.5rem;
+	padding: 0.3rem;
 	background-color: #0925;
-	border-radius: 2px;
+	border-radius: 1px 25px;
 	text-shadow: 1px 1px 0 #000;
-	
 	display: flex;
 	align-items: center;
 }
@@ -262,7 +262,7 @@ footer {
 
 .sec3-4potions {
 	width: 13rem;
-	margin-right: 0.5rem;
+	margin-right: 0.25rem;
 }
 
 .sec3-potion-description {
