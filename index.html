@@ -4,85 +4,83 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Harry Potions</title>	
-	<link rel="stylesheet" href="./style/style.css">
-	<link rel="icon" href="./images/icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<title>Harry Potions</title>
+	<link rel="icon" sizes="16x16" type="image/png" href="./images/poticon.png">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-	<div class="containerAll">
-
-	<header>
-		<h2>Harry Potions Industry</h2>
-	</header>
 	
-	<main>
-		<section class="sec1">
-			<h1>Become a potions master!</h1>
-			<p><em>
-				Learn how to create <span style="color: #79f;">powerful potions.</span><br>
-				Learn how to get the <span style="color: #7c6;">best ingredients.</span><br>
-				Learn how to proper <span style="color: #a4a;">clean your cauldron.</span><br>
-			</em></p>
-			<br>
-			<img src="./images/potionBook.png" alt="potionBook" width="210">
-			<br>
-			<!-- <img src="./images/ingredient.png" alt="ingredient" width="180">		 -->
-			<!-- <img src="./images/cauldron.png" alt="cauldron" width="170"> -->
-			<img src="./images/mandrake_cauldron.png" alt="ingredient" width="335">
-		</section>
-		
-		<section class="sec2">
-			<h2>Complete the form and get<br>your Potions Book.</h2>
-			<form action="" method="get">
-				<input type="text" name="FIRSTNAME" placeholder="Enter your first name"/>
-				<input type="text" name="LASTNAME" placeholder="Enter your last name"/>
-				<input type="email" name="EMAIL" placeholder="Enter your best email"/>
-			
-				<div class="checkboxSec2">
-					<label><input type="checkbox" checked> Send me updates about Harry Potions Industry.</label>
-				</div>
+	<header>
+		<h2>Harry Potions</h2>
+	</header>
 
-				<input type="submit" class="button" value="GET THE POTIONS BOOK">
-			</form>
+	<main>
+		
+		<section class="sec1">
+			<h1 class="sec1-title">The Book of Potions!</h1>
+			<ul class="sec1-subtitle">
+				<li>Create powerful <span class="sec1-subtitle-potions">potions.</span><br>
+				<li>Get the best <span class="sec1-subtitle-ingredients">ingredients.</span><br>
+				<li>Detox your <span class="sec1-subtitle-cauldron">cauldron.</span><br>
+			</ul>
+			<div class="sec1-images">
+				<img class="sec1-img-book" src="./images/book.png" alt="book">
+				<br>
+				<img class="sec1-img-devilsnare" src="./images/devilsnare.png" alt="devilsnare">
+				<img class="sec1-img-cauldron" src="./images/cauldron.png" alt="cauldron">
+			</div>
+		</section>
+
+		<section class="sec2">
+			<div class="sec2-form-box">
+				<h2 class="sec2-title">Fill the form and get the<br>Book of Potions.</h2>
+				<form action="" method="get" class="sec2-form">
+					<input class="sec2-form-inp" type="text" name="FIRSTNAME" placeholder="YOUR FIRST NAME"/>
+					<br>
+					<input class="sec2-form-inp" type="text" name="LASTNAME" placeholder="YOUR LAST NAME"/>
+					<br>
+					<input class="sec2-form-inp" type="email" name="EMAIL" placeholder="YOUR BEST E-MAIL"/>
+					<br>
+					<label class="sec2-form-checkbox">Send me updates about<br>Harry Potions.
+						<input type="checkbox" checked="checked">
+						<span class="sec2-form-checkmark"></span>
+					</label>					
+					<br>
+					<input class="sec-form-button" type="submit" class="button" value="GET THE BOOK OF POTIONS">
+				</form>
+			</div>
 		</section>
 
 		<section class="sec3">
-			<h2>With this book you can poduce:</h2>
-
-			<div class="potionSec3">
-				<img src="images/felix.png" alt="felixPotion" width="170">
-				<p><em>"Felix Felicis, also called "Liquid Luck", is a potion that makes the drinker lucky for a period of time, during which everything they attempt will be successful. It turns an ordinary day into an extraordinary one."</p></em></p>
+			<h2 class="sec3-title">With this book you can produce:</h2>
+			<div class="sec3-potion-box">
+				<img class="sec3-potion" src="images/felix.png" alt="felixPotion">
+				<p class="sec3-potion-description">"Felix Felicis, also called "Liquid Luck", is a potion that makes the drinker lucky for a period of time, during which everything they attempt will be successful. It turns an ordinary day into an extraordinary one."</p>
 			</div>
-			
-			<div class="potionSec3">
-				<img src="images/amortentia.png" alt="amortentiaPotion" width="170">
-				<p><em>"Amortentia is the most powerful love potion in the world. Amortentia smells different to each person, according to what attracts them."</em></p>
+			<div class="sec3-potion-box">
+				<img class="sec3-potion" src="images/amortentia.png" alt="amortentiaPotion">
+				<p class="sec3-potion-description">"Amortentia is the most powerful love potion in the world. Amortentia smells different to each person, according to what attracts them."</p>
 			</div>
-
-			<div class="potionSec3">
-				<img src="images/veritas.png" alt="veritasPotion" width="170">
-				<p><em>"Veritaserum. A powerful potion that makes a person unable to lie."</em></p>
+			<div class="sec3-potion-box">
+				<img class="sec3-potion" src="images/vertitas.png" alt="veritasPotion">
+				<p class="sec3-potion-description">"Veritaserum. A powerful potion that makes a person unable to lie."</p>
 			</div>
-
-			<div class="potionSec3">
-				<img src="images/polyjuice.png" alt="polyjuicePotion" width="170">
-				<p><em>"Polyjuice Potion. It enables the consumer to assume the physical appearance of another person, as long as they have first procured part of that individual's body to add to the brew."</em></p>
+			<div class="sec3-potion-box">
+				<img class="sec3-potion" src="images/polyjuice.png" alt="polyjuicePotion">
+				<p class="sec3-potion-description">"Polyjuice Potion. It enables the consumer to assume the physical appearance of another person, as long as they have first procured part of that individual's body to add to the brew."</p>
 			</div>
-
-			<div class="potionSec3">
-				<img src="images/otherPotions.png" alt="otherPotions" width="300">
-				<p><em>"... and much more!!!"</em></p>
+			<div class="sec3-potion-box">
+				<img class="sec3-4potions" src="images/4morePotions.png" alt="otherPotions">
+				<p class="sec3-potion-description">"... AND MUCH MORE!!!"</p>
 			</div>
 		</section>
 	</main>
-	
+
 	<footer>
 		<p>This page was created by <a href="https://github.com/marco93prof"><strong>Marco Mendes</strong></a> for study purposes only.</p>
 	</footer>
-	
-	</div> <!-- ****** CLOSE "containerAll" ******  -->
-	 
+
 </body>
 </html>
