@@ -39,7 +39,12 @@ h1, h2, h3, h4, h5, h6 {
 .sec1, .sec2, .sec3{
 	background-color: #333;
 	padding: 1rem; /**** RESULT OF MQ[1] ****/
-} 
+}
+
+.visibleTag {
+	display: initial;
+	/* display: none; */
+}
 
 /*#############################################
 							HEADER + FOOTER
@@ -268,3 +273,62 @@ footer {
 .sec3-potion-description {
 	font-style: italic;
 }
+
+
+/*#############################################
+							MEDIA QUERIES
+#############################################*/
+
+@media only screen and (min-width: 1024px) {
+	
+	body {
+		max-width: 1280px;
+	}
+
+	.sec1 {
+		display: inline-block;
+		width: 55%;
+		height: 700px;
+		/* border: 1px solid red; */
+
+	}
+	
+	.sec2 {
+		float: right;
+		width: 45%;
+		height: 700px;
+		padding: 0;
+		padding: 0;
+		/* border: 1px solid red; */
+	}
+		
+	.sec2-form-box {
+		width: 75%;
+		margin: 5rem 0 0 0;
+		border-radius: 25px 1px;
+	}
+
+	.sec2-title{
+		margin-bottom: 1.5rem;
+		font-size: 2.2rem;
+	}
+
+	.sec2-form-inp {
+		width: 85%;
+		margin-top: 0.75rem;
+		padding: 0.2rem;
+		font-size: 16px;
+	}
+
+	.sec2-form-checkbox {
+		margin-top: 0.75rem;
+		font-size: 16px;
+	}
+
+	.visibleTag {
+		/* display: initial; */
+		display: none;
+	}
+
+}
+	
