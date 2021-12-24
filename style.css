@@ -11,9 +11,13 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	box-sizing: border-box;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: min( 5vw, 20px );  /**** MQ[1] ****/
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
 }
 
 body {
@@ -21,7 +25,6 @@ body {
 	max-width: 630px;
 	color: #eee;
 	background-color: #000;
-
 }
 
 a {
@@ -52,12 +55,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header, footer {
 	padding: 1rem; /***** RESULT OF MQ[1] *****/
+	color: #ddd;
 	background-color: #1c1c1c;
-	color: #fff;
 	text-shadow: 3px 3px 1px #000;
 }
 
-header > h2{
+header > h2 {
 	font-weight: 300;
 }
 
@@ -74,7 +77,7 @@ footer {
 	font-size: 3.3rem; /***** RESULT OF MQ[1] *****/
 	margin-top: 0.7rem; /***** RESULT OF MQ[1] *****/
 	letter-spacing: 2px;
-	color: #092;
+	color: #fff;
 	text-shadow: 3px 3px 1px #000
 }
 
@@ -114,11 +117,10 @@ footer {
 	text-align: center;
 	background-color: #ccc;
 	color: #222;
-	border-radius: 2px;
-	/* border: 5px solid green; */
+	border-radius: 5px;
 }
 
-.sec2-title{
+.sec2-title {
 	margin-bottom: 1.5rem;
 	text-shadow: 2px 2px 2px #092;
 }
@@ -147,7 +149,7 @@ footer {
 	text-transform: uppercase;
 }
 
-.sec-form-button {
+.sec2-form-button {
 	padding: 1rem 0.8rem;
 	margin-top: 1.5rem;
 	background-color: #092;
@@ -157,11 +159,11 @@ footer {
 	border: none;
 }
 
-.sec-form-button:hover {
+.sec2-form-button:hover {
 	box-shadow: 0px 0px 10px #092;
 }
 
-.sec-form-button:active {
+.sec2-form-button:active {
 	background-color: #062;
 	color: #ccc;
 }
@@ -173,7 +175,6 @@ footer {
 
 /* The sec2-form-checkbox */
 .sec2-form-checkbox {
-	/* text-align: left; */
 	text-indent: 30px;
 	width: fit-content;
 	margin: 1rem auto;/***** RESULT OF MQ[1] *****/
@@ -246,7 +247,8 @@ footer {
 
 .sec3-title{
 	text-shadow: 3px 3px 1px #000;
-	color: #092;
+	letter-spacing: 2px;
+	color: #fff;
 	margin-bottom: 1.5rem;
 }
 
@@ -287,28 +289,27 @@ footer {
 
 	.sec1 {
 		display: inline-block;
-		width: 55%;
-		height: 700px;
-		/* border: 1px solid red; */
-
+		width: 50%;
+		height: 87vh;
+	}
+	
+	.sec1-title {
+		font-size: 4rem;
 	}
 	
 	.sec2 {
 		float: right;
-		width: 45%;
-		height: 700px;
-		padding: 0;
-		padding: 0;
-		/* border: 1px solid red; */
+		width: 50%;
+		height: 87vh;
 	}
 		
 	.sec2-form-box {
 		width: 75%;
-		margin: 5rem 0 0 0;
-		border-radius: 25px 1px;
+		margin: 6rem 0 0rem 2rem;
+		border-radius: 1px 25px;
 	}
 
-	.sec2-title{
+	.sec2-title {
 		margin-bottom: 1.5rem;
 		font-size: 2.2rem;
 	}
@@ -325,10 +326,13 @@ footer {
 		font-size: 16px;
 	}
 
+	.sec2-form-button {
+		margin-top: 2rem;
+	}
+
 	.visibleTag {
 		/* display: initial; */
 		display: none;
 	}
 
 }
-	
