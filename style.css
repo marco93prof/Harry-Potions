@@ -290,7 +290,7 @@ footer {
 	.sec1 {
 		display: inline-block;
 		width: 50%;
-		height: 87vh;
+		min-height: 85vh;
 	}
 	
 	.sec1-title {
@@ -300,11 +300,11 @@ footer {
 	.sec2 {
 		float: right;
 		width: 50%;
-		height: 87vh;
+		min-height: 85vh;
 	}
 		
 	.sec2-form-box {
-		width: 75%;
+		width: 380px;
 		margin: 6rem 0 0rem 2rem;
 		border-radius: 1px 25px;
 	}
@@ -317,7 +317,7 @@ footer {
 	.sec2-form-inp {
 		width: 85%;
 		margin-top: 0.75rem;
-		padding: 0.2rem;
+		padding: 0.4rem;
 		font-size: 16px;
 	}
 
