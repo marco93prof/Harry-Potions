@@ -161,6 +161,8 @@ footer {
 
 .sec2-form-button:hover {
 	box-shadow: 0px 0px 10px #092;
+	cursor: pointer;
+
 }
 
 .sec2-form-button:active {
